@@ -11,8 +11,9 @@ Set up an SCCM/MECM Server to facilitate centralised system management and strea
 <h2>Technology Used</h2>
 
 - <b>Windows Server 2019</b> 
-- <b>SQL Server</b>
+- <b>SQL Server (Database)</b>
 - <b>System Centre Configuration Manager / Microsoft Endpoint Configuration Manager</b>
+- <b>VirtualBox (Virtualisation Software)</b>
 
 
 <h2>Diagram:</h2>
