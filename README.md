@@ -5,8 +5,7 @@ Set up an SCCM/MECM Server to facilitate centralised system management and strea
 
 •DHCP/NAT Server to manage internet connectivity and IP addresses to all devices.<br />
 •Domain Controller Server to administer Active Directory, ensuring secure access to network resources.<br />
-•Windows 10 VM as a test system for software deployment
-<br />
+•Windows 10 VM as a test system for software deployment<br />
 
 
 <h2>Technology Used</h2>
