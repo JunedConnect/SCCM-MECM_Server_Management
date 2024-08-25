@@ -16,7 +16,7 @@ Set up an SCCM/MECM Server to facilitate centralised system management and strea
 - <b>API integration</b>
 - <b>KQL (Query Language)</b>
 
-<h2>Diagram:</h2>
+<h2>Diagram</h2>
 <br/>
 <img src="xxxxxxxxxx"/>
 <br />
