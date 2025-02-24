@@ -1,33 +1,22 @@
-<h1>Azure Sentinel SIEM Honeypot Geolocation Dashboard</h1>
+# SCCM/MECM Server Management  
 
-<h2>Description</h2>
-Set up an SCCM/MECM Server to facilitate centralised system management and streamline software deployment across my home network. 3 other separate systems were set up:
+## Description  
+- Set up an **Azure Workspace** with **vulnerable VMs**, **Log Analytics Workspace**, and **Sentinel**.  
+- Deployed a **PowerShell script** and **API** for **Windows Event Viewer metadata extraction** (IoC Enrichment).  
+- Configured **Azure Log Analytics Workspace** to **ingest and parse metadata**.  
+- Pipelined parsed data into **Azure Sentinel** for **global attack data display** using a **workbook**.  
 
-• DHCP/NAT Server to manage internet connectivity and IP addresses to all devices.<br />
-• Domain Controller Server to administer Active Directory, ensuring secure access to network resources.<br />
-• Windows 10 VM as a test system for software deployment<br />
+## Impact  
+Enhanced **threat visibility** with **geolocation insights** (**over 3,000 attack attempts**), enabling:  
+- **Effective monitoring of attacks** (threat hunting).  
+- **Improved incident response**.  
+- **Escalation of critical threats to stakeholders**.  
 
+## Technology Used  
+- **Windows Server 2019**  
+- **SQL Server (SQL Database)**  
+- **System Center Configuration Manager / Microsoft Endpoint Configuration Manager**  
+- **VirtualBox (Virtualization Software)**  
 
-<h2>Technology Used</h2>
-
-- <b>Azure Sentinel (Cloud Platform)</b> 
-- <b>PowerShell (Scripting Language)</b>
-- <b>Log Analytics Workspace (Log Storage)</b>
-- <b>API integration</b>
-- <b>KQL (Query Language)</b>
-
-<h2>Diagram</h2>
-<br/>
-<img src="xxxxxxxxxx"/>
-<br />
-<br />
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+## Diagram  
+![Diagram](https://raw.githubusercontent.com/JunedConnect/SCCM-MECM_Server_Management/main/images/SCCM%20Project.png)  
